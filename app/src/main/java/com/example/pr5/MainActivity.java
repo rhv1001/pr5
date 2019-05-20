@@ -1,6 +1,5 @@
 package com.example.pr5;
 
-import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.content.Intent;
@@ -29,8 +28,8 @@ class MeteCuenta extends AppCompatActivity {
     }
 
     public void Entrar(View v) {
-        Intent intent = new Intent(v.getContext(), MenPri.class);
-        startActivityForResult(intent, 0);
+        Intent intent1 = new Intent(v.getContext(), MenPri.class);
+        startActivityForResult(intent1, 0);
     }
 }
 class CreaCuenta extends AppCompatActivity{
@@ -40,16 +39,16 @@ class CreaCuenta extends AppCompatActivity{
         setContentView(R.layout.activity_creacuenta);
     }
     public void MetpagoReg(View v) {
-        Intent intent = new Intent (v.getContext(), MetopagoReg.class);
-        startActivityForResult(intent, 0);
+        Intent intent2 = new Intent (v.getContext(), MetopagoReg.class);
+        startActivityForResult(intent2, 0);
     }
     public void CocheReg(View v) {
-        Intent intent = new Intent (v.getContext(), Carreg.class);
-        startActivityForResult(intent, 0);
+        Intent intent3 = new Intent (v.getContext(), Carreg.class);
+        startActivityForResult(intent3, 0);
     }
     public void Registrarse(View v) {
-        Intent intent = new Intent (v.getContext(), Registrado.class);
-        startActivityForResult(intent, 0);
+        Intent intent4 = new Intent (v.getContext(), Registrado.class);
+        startActivityForResult(intent4, 0);
     }
 }
 class MenPri extends AppCompatActivity{
@@ -66,8 +65,8 @@ class MetopagoReg extends AppCompatActivity{
             setContentView(R.layout.activity_modmetpago);
         }
         public void NuevoPago (View v){
-            Intent intent = new Intent (v.getContext(), AnadirPago.class);
-            startActivityForResult(intent, 0);
+            Intent intent5 = new Intent (v.getContext(), AnadirPago.class);
+            startActivityForResult(intent5, 0);
         }
 }
 class Registrado extends AppCompatActivity{
@@ -77,13 +76,12 @@ class Registrado extends AppCompatActivity{
         setContentView(R.layout.activity_regcomp);
     }
     public void OtraCuenta (View v){
-        Intent intent;
-        intent = new intent(v.getContext(), MeteCuenta.class);
-        startActivityForResult(intent, 0);
+        Intent intent5 = new Intent(v.getContext(), MeteCuenta.class);
+        startActivityForResult(intent5, 0);
     }
     public void MenPri (View v){
-        Intent intent = new intent (v.getContext(), MenPri.class);
-        startActivityForResult(intent, 0);
+        Intent intent6 = new Intent(v.getContext(), MenPri.class);
+        startActivityForResult(intent6, 0);
 
     }
 }
@@ -103,8 +101,7 @@ class AnadirPago extends AppCompatActivity{
         setContentView(R.layout.activity_modmetpago2);
     }
     public void Patras (View v) {
-        Intent intent;
-        intent = new intent (v.getContext(), MetopagoReg.class);
-        startActivityForResult(intent, 0);
+        Intent intent7 = new Intent(v.getContext(), MetopagoReg.class);
+        startActivityForResult(intent7, 0);
     }
 }
