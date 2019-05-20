@@ -25,4 +25,11 @@
     <string name="anaviaje">Añade viaje</string>
     <string name="title_activity_anadir_viaje">anadirViaje</string>
     <string name="title_activity_prueba1">prueba1</string>
+    <string name="iconmd">Icono del perfil en el material design</string>
+    <string name="notificamatdesign">Notificaciones</string>
+    <string name="metpagmatdesign">Métodos de pago</string>
+    <string name="ajustesmatdesign">Ajustes</string>
+    <string name="sobrematdesign">Sobre la app</string>
+    <string name="ayudamatdesign">Ayuda</string>
+    <string name="tutorialmatdesign">Tutorial</string>
 </resources>
