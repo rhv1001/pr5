@@ -23,4 +23,5 @@
     <string name="cocherin">Icono de coche</string>
     <string name="busviaje">Buscar viaje</string>
     <string name="anaviaje">Añade viaje</string>
+    <string name="title_activity_anadir_viaje">anadirViaje</string>
 </resources>
