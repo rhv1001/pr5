@@ -32,4 +32,30 @@
         android:background="@color/azulosc"
         tools:layout_editor_absoluteX="240dp"
         tools:layout_editor_absoluteY="426dp" />
+
+    <View
+        android:id="@+id/view9"
+        android:layout_width="177dp"
+        android:layout_height="737dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="77dp"
+        android:layout_height="96dp"
+        app:srcCompat="@mipmap/ic_iconomatdesign"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="21dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="245dp" />
 </android.support.constraint.ConstraintLayout>
