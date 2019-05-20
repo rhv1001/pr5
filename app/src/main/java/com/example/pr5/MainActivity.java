@@ -140,3 +140,17 @@ class ResultadoViaje extends AppCompatActivity {
         setContentView(R.layout.activity_regcomp);
     }
 }
+class Ayuda extends AppCompatActivity {
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_regcomp);
+    }
+}
+class Feedback extends AppCompatActivity {
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_regcomp);
+    }
+}
