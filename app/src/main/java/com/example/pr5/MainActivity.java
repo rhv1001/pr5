@@ -57,6 +57,10 @@ class MenPri extends AppCompatActivity{
             super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_menuprincipal);
         }
+        public void AnadirViaje (View v){
+            Intent intent5 = new Intent (v.getContext(), AnadirPago.class);
+            startActivityForResult(intent5, 0);
+    }
 }
 class MetopagoReg extends AppCompatActivity{
         @Override
@@ -105,3 +109,9 @@ class AnadirPago extends AppCompatActivity{
         startActivityForResult(intent7, 0);
     }
 }
+class AnadirViaje extends AppCompatActivity{
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_regcomp);
+    }

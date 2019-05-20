@@ -24,4 +24,5 @@
     <string name="busviaje">Buscar viaje</string>
     <string name="anaviaje">Añade viaje</string>
     <string name="title_activity_anadir_viaje">anadirViaje</string>
+    <string name="title_activity_prueba1">prueba1</string>
 </resources>
