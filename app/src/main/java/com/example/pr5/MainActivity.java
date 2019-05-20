@@ -109,9 +109,10 @@ class AnadirPago extends AppCompatActivity{
         startActivityForResult(intent7, 0);
     }
 }
-class AnadirViaje extends AppCompatActivity{
+class AnadirViaje extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_regcomp);
     }
+}

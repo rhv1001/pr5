@@ -32,4 +32,15 @@
     <string name="sobrematdesign">Sobre la app</string>
     <string name="ayudamatdesign">Ayuda</string>
     <string name="tutorialmatdesign">Tutorial</string>
+    <string name="origen">Origen</string>
+    <string name="destino">Destino</string>
+    <string name="dirsalida">Dirección Salida</string>
+    <string name="fechSalida">Fecha Salida</string>
+    <string name="fechllegada">Fecha Prevista de Llegada</string>
+    <string name="coche">Coche</string>
+    <string name="plazaDisp">Plazas Disponibles</string>
+    <string name="precio">Precio</string>
+    <string name="tipoViaje">Tipo de Viaje</string>
+
+
 </resources>
