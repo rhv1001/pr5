@@ -115,4 +115,28 @@ class AnadirViaje extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_regcomp);
     }
+    public void MenPri (View v){
+        Intent intent6 = new Intent(v.getContext(), MenPri.class);
+        startActivityForResult(intent6, 0);
+
+    }
+}
+class BuscarViaje extends AppCompatActivity {
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_regcomp);
+    }
+    public void ResultadoViaje (View v){
+        Intent intent6 = new Intent(v.getContext(), MenPri.class);
+        startActivityForResult(intent6, 0);
+
+    }
+}
+class ResultadoViaje extends AppCompatActivity {
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_regcomp);
+    }
 }
