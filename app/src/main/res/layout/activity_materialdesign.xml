@@ -6,48 +6,30 @@
     android:layout_height="match_parent"
     android:background="@color/azul">
 
-    <Button
-        android:id="@+id/button7"
-        android:layout_width="210dp"
-        android:layout_height="157dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
+    <View
+        android:id="@+id/view6"
+        android:layout_width="240dp"
+        android:layout_height="739dp"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
-        android:onClick="AnadirViaje"
-        android:text="@string/anaviaje"
+        android:background="@color/azulosc"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.261" />
-
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="210dp"
-        android:layout_height="157dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginBottom="8dp"
-        android:text="@string/busviaje"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.749" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <View
-        android:id="@+id/view4"
-        android:layout_width="236dp"
-        android:layout_height="743dp"
+        android:id="@+id/view7"
+        android:layout_width="64dp"
+        android:layout_height="156dp"
         android:background="@color/azulosc"
-        tools:layout_editor_absoluteX="-2dp"
-        tools:layout_editor_absoluteY="-6dp" />
+        tools:layout_editor_absoluteX="240dp"
+        tools:layout_editor_absoluteY="150dp" />
+
+    <View
+        android:id="@+id/view8"
+        android:layout_width="64dp"
+        android:layout_height="156dp"
+        android:background="@color/azulosc"
+        tools:layout_editor_absoluteX="240dp"
+        tools:layout_editor_absoluteY="426dp" />
 </android.support.constraint.ConstraintLayout>
