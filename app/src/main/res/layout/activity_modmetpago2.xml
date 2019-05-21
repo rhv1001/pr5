@@ -32,7 +32,8 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@mipmap/ic_creditocard" />
+        app:srcCompat="@mipmap/ic_creditocard"
+        android:contentDescription="TODO" />
 
     <ImageButton
         android:id="@+id/imageButton4"

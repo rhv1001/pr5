@@ -1,13 +1,13 @@
 package com.example.pr5;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
-
-public class Ajustes extends AppCompatActivity{
+public class MetodoPago extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.ajustes);
+        setContentView(R.layout.activity_metodospagomaterialdesign);
     }
+
 }
