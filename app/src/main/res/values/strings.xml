@@ -48,4 +48,18 @@
     <string name="ajustestitulo">Ajustes</string>
     <string name="bienvenida">Bienvenido a la aplicación</string>
     <string name="pulsaelboton">Pulsa el botón para continuar</string>
+    <string name="icotarjeta">Icono tarjeta de crédito</string>
+    <string name="addmetodopago">Añadir método de pago</string>
+    <string name="anadecoche">Añadir coche</string>
+    <string name="pregunta1">¿Cómo cambio la contraseña?</string>
+    <string name="pregunta2">¿Qué hago si no llega mi conductor?</string>
+    <string name="pregunta3">¿Cómo cancelo el viaje?</string>
+    <string name="llamar">Llamar</string>
+    <string name="enviaemail">Enviar un mail</string>
+    <string name="visitanos">Visita nuestra Página</string>
+    <string name="feedback">Feedback</string>
+    <string name="pregfrecuentes">Preguntas Frecuentes</string>
+    <string name="contactanos">Contáctanos</string>
+    <string name="rayitas">----------------------------------------------------------------------------------------------------------</string>
+    <strin
 </resources>
