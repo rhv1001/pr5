@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
     public void MeteCuenta (View v){
-        Intent intent10 = new Intent (v.getContext(), MatDesign.class);
+        Intent intent10 = new Intent (v.getContext(), MeteCuenta.class);
         startActivityForResult(intent10, 0);
     }
 }
@@ -30,7 +30,7 @@ class MeteCuenta extends AppCompatActivity {
 
     }
 
-    public void Entrar(View v) {
+    public void MenPri(View v) {
         Intent intent1 = new Intent(v.getContext(), MenPri.class);
         startActivityForResult(intent1, 0);
     }
@@ -61,11 +61,12 @@ class MenPri extends AppCompatActivity{
             setContentView(R.layout.activity_menuprincipal);
         }
         public void AnadirViaje (View v){
-            Intent intent5 = new Intent (v.getContext(), AnadirPago.class);
+            Intent intent5 = new Intent (v.getContext(), AnadirViaje.class);
             startActivityForResult(intent5, 0);
-    }
+         }
         public void BuscarViaje (View v){
-
+        Intent intent5 = new Intent (v.getContext(), BuscarViaje.class);
+        startActivityForResult(intent5, 0);
         }
         public void MaterialDesign (View v){
             Intent intent10 = new Intent (v.getContext(), MatDesign.class);
