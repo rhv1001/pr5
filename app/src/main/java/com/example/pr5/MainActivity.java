@@ -12,6 +12,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+    public void MeteCuenta (View v){
+        Intent intent10 = new Intent (v.getContext(), MatDesign.class);
+        startActivityForResult(intent10, 0);
+    }
 }
 class MeteCuenta extends AppCompatActivity {
     @Override
