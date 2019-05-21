@@ -61,5 +61,7 @@
     <string name="pregfrecuentes">Preguntas Frecuentes</string>
     <string name="contactanos">Contáctanos</string>
     <string name="rayitas">----------------------------------------------------------------------------------------------------------</string>
-    <strin
+    <string name="escribe">Escriba aquí</string>
+    <string name="quenecesitas">¿Qué necesitas?</string>
+    <string name="enviar">Enviar</string>
 </resources>

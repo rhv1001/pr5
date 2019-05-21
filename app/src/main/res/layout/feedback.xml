@@ -20,8 +20,12 @@
             android:layout_marginStart="132dp"
             android:layout_marginLeft="132dp"
             android:layout_marginTop="64dp"
-            android:text="Feedback"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="@string/feedback"
             android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.076"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -29,28 +33,47 @@
             android:id="@+id/textView9"
             android:layout_width="328dp"
             android:layout_height="255dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="220dp"
             android:background="#588DB8"
-            android:text="Escriba aquí"
-            tools:layout_editor_absoluteX="41dp"
-            tools:layout_editor_absoluteY="238dp" />
+            android:hint="@string/escribe"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.492"
+            app:layout_constraintStart_toStartOf="parent" />
 
         <TextView
             android:id="@+id/textView21"
             android:layout_width="179dp"
             android:layout_height="46dp"
-            android:text="¿Qué Necesitas?"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="512dp"
+            android:text="@string/quenecesitas"
             android:textSize="24sp"
-            tools:layout_editor_absoluteX="116dp"
-            tools:layout_editor_absoluteY="179dp" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
 
         <Button
             android:id="@+id/button11"
             android:layout_width="127dp"
             android:layout_height="77dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="72dp"
             android:onClick="MenPri"
-            android:text="Enviar"
-            tools:layout_editor_absoluteX="142dp"
-            tools:layout_editor_absoluteY="569dp" />
+            android:text="@string/enviar"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
 
     </android.support.constraint.ConstraintLayout>
 </android.support.constraint.ConstraintLayout>
