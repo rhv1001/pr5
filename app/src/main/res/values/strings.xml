@@ -46,4 +46,6 @@
     <string name="iconosobreapp">Icono dentro de Sobre la app</string>
     <string name="contentsobrenosotros">App desarrollada por Rubén Herrero y Pablo Ahíta</string>
     <string name="ajustestitulo">Ajustes</string>
+    <string name="bienvenida">Bienvenido a la aplicación</string>
+    <string name="pulsaelboton">Pulsa el botón para continuar</string>
 </resources>
