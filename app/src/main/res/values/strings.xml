@@ -42,5 +42,6 @@
     <string name="precio">Precio</string>
     <string name="tipoViaje">Tipo de Viaje</string>
     <string name="nombreUsuario">Nick</string>
+    <string name="icomatdesign">Icono material design dentro del menú principal</string>
 
 </resources>

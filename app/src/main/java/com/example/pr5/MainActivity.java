@@ -61,6 +61,13 @@ class MenPri extends AppCompatActivity{
             Intent intent5 = new Intent (v.getContext(), AnadirPago.class);
             startActivityForResult(intent5, 0);
     }
+        public void BuscarViaje (View v){
+
+        }
+        public void MaterialDesign (View v){
+            Intent intent10 = new Intent (v.getContext(), MatDesign.class);
+            startActivityForResult(intent10, 0);
+        }
 }
 class MetopagoReg extends AppCompatActivity{
         @Override
@@ -152,5 +159,12 @@ class Feedback extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_regcomp);
+    }
+}
+class MatDesign extends AppCompatActivity {
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_materialdesign);
     }
 }
