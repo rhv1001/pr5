@@ -175,6 +175,10 @@ class MatDesign extends AppCompatActivity {
         Intent intent12 = new Intent(v.getContext(), MetodoPago.class);
         startActivityForResult(intent12, 0);
     }
+    public void Ayuda (View v){
+        Intent intent13 = new Intent(v.getContext(), Ayuda.class);
+        startActivityForResult(intent13, 0);
+    }
 
 }
 class Notificaciones extends AppCompatActivity {
@@ -186,6 +190,14 @@ class Notificaciones extends AppCompatActivity {
 
 }
 class MetodoPago extends AppCompatActivity {
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_metodospagomaterialdesign);
+    }
+
+}
+class Sobre extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
