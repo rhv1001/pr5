@@ -127,9 +127,8 @@ class AnadirViaje extends AppCompatActivity {
         setContentView(R.layout.activity_regcomp);
     }
     public void MenPri (View v){
-        Intent intent6 = new Intent(v.getContext(), MenPri.class);
-        startActivityForResult(intent6, 0);
-
+        Intent intent5 = new Intent (v.getContext(), MenPri.class);
+        startActivityForResult(intent5, 0);
     }
 }
 class BuscarViaje extends AppCompatActivity {
