@@ -41,6 +41,6 @@
     <string name="plazaDisp">Plazas Disponibles</string>
     <string name="precio">Precio</string>
     <string name="tipoViaje">Tipo de Viaje</string>
-
+    <string name="nombreUsuario">Nick</string>
 
 </resources>
