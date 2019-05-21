@@ -9,7 +9,7 @@ public class AnadirViaje extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_regcomp);
+        setContentView(R.layout.activity_anadirviaje);
     }
     public void MenPri (View v){
         Intent intent5 = new Intent (v.getContext(), MenPri.class);
