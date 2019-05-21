@@ -45,4 +45,5 @@
     <string name="icomatdesign">Icono material design dentro del menú principal</string>
     <string name="iconosobreapp">Icono dentro de Sobre la app</string>
     <string name="contentsobrenosotros">App desarrollada por Rubén Herrero y Pablo Ahíta</string>
+    <string name="ajustestitulo">Ajustes</string>
 </resources>

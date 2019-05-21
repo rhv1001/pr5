@@ -183,7 +183,10 @@ class MatDesign extends AppCompatActivity {
         Intent intent14 = new Intent(v.getContext(), Sobre.class);
         startActivityForResult(intent14, 0);
     }
-
+    public void Ajustes (View v){
+        Intent intent15 = new Intent(v.getContext(), Ajustes.class);
+        startActivityForResult(intent15, 0);
+    }
 }
 class Notificaciones extends AppCompatActivity {
     @Override
@@ -206,6 +209,14 @@ class Sobre extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.sobre);
+    }
+
+}
+class Ajustes extends AppCompatActivity {
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.ajustes);
     }
 
 }
