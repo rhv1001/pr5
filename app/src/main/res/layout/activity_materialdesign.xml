@@ -18,45 +18,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.541" />
 
-    <View
-        android:id="@+id/view7"
-        android:layout_width="64dp"
-        android:layout_height="156dp"
-        android:layout_marginStart="240dp"
-        android:layout_marginLeft="240dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginBottom="392dp"
-        android:background="@color/azulosc"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <View
-        android:id="@+id/view8"
-        android:layout_width="64dp"
-        android:layout_height="156dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="116dp"
-        android:layout_marginRight="116dp"
-        android:layout_marginBottom="132dp"
-        android:background="@color/azulosc"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.921" />
-
-    <View
-        android:id="@+id/view9"
-        android:layout_width="177dp"
-        android:layout_height="737dp"
-        android:layout_marginTop="4dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
-
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="77dp"
@@ -78,6 +39,7 @@
         android:layout_width="240dp"
         android:layout_height="58dp"
         android:layout_marginBottom="8dp"
+        android:clickable="true"
         android:onClick="MetPago"
         android:text="@string/metpagmatdesign"
         android:textColor="@color/white"
@@ -95,6 +57,8 @@
         android:layout_height="62dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
+        android:clickable="true"
+        android:onClick="Ajustes"
         android:text="@string/ajustesmatdesign"
         android:textColor="@color/white"
         android:textColorHighlight="@color/white"
@@ -111,6 +75,7 @@
         android:layout_height="61dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
+        android:clickable="true"
         android:onClick="Ayuda"
         android:text="@string/ayudamatdesign"
         android:textColor="@color/white"
@@ -127,6 +92,7 @@
         android:layout_width="239dp"
         android:layout_height="63dp"
         android:layout_marginBottom="8dp"
+        android:clickable="true"
         android:onClick="Sobre"
         android:text="@string/sobrematdesign"
         android:textColor="@color/white"
@@ -143,6 +109,7 @@
         android:layout_width="239dp"
         android:layout_height="57dp"
         android:layout_marginBottom="8dp"
+        android:clickable="true"
         android:onClick="Notificaciones"
         android:text="@string/notificamatdesign"
         android:textColor="@color/white"
