@@ -179,6 +179,10 @@ class MatDesign extends AppCompatActivity {
         Intent intent13 = new Intent(v.getContext(), Ayuda.class);
         startActivityForResult(intent13, 0);
     }
+    public void Sobre (View v){
+        Intent intent14 = new Intent(v.getContext(), Sobre.class);
+        startActivityForResult(intent14, 0);
+    }
 
 }
 class Notificaciones extends AppCompatActivity {
@@ -201,7 +205,7 @@ class Sobre extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_metodospagomaterialdesign);
+        setContentView(R.layout.sobre);
     }
 
 }
