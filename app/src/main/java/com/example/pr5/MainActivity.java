@@ -132,7 +132,7 @@ class BuscarViaje extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_regcomp);
+        setContentView(R.layout.buscarviaje);
     }
     public void ResultadoViaje (View v){
         Intent intent6 = new Intent(v.getContext(), ResultadoViaje.class);
@@ -144,21 +144,21 @@ class ResultadoViaje extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_regcomp);
+        setContentView(R.layout.resultadoviaje);
     }
 }
 class Ayuda extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_regcomp);
+        setContentView(R.layout.ayuda);
     }
 }
 class Feedback extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_regcomp);
+        setContentView(R.layout.feedback);
     }
 }
 class MatDesign extends AppCompatActivity {
@@ -171,6 +171,10 @@ class MatDesign extends AppCompatActivity {
         Intent intent11 = new Intent(v.getContext(), Notificaciones.class);
         startActivityForResult(intent11, 0);
     }
+    public void MetPago (View v){
+        Intent intent12 = new Intent(v.getContext(), MetodoPago.class);
+        startActivityForResult(intent12, 0);
+    }
 
 }
 class Notificaciones extends AppCompatActivity {
@@ -178,6 +182,14 @@ class Notificaciones extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_notificaciones);
+    }
+
+}
+class MetodoPago extends AppCompatActivity {
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_metodospagomaterialdesign);
     }
 
 }
