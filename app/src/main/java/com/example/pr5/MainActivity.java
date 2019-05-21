@@ -135,7 +135,7 @@ class BuscarViaje extends AppCompatActivity {
         setContentView(R.layout.activity_regcomp);
     }
     public void ResultadoViaje (View v){
-        Intent intent6 = new Intent(v.getContext(), MenPri.class);
+        Intent intent6 = new Intent(v.getContext(), ResultadoViaje.class);
         startActivityForResult(intent6, 0);
 
     }
@@ -167,4 +167,17 @@ class MatDesign extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_materialdesign);
     }
+    public void Notificaciones (View v){
+        Intent intent11 = new Intent(v.getContext(), Notificaciones.class);
+        startActivityForResult(intent11, 0);
+    }
+
+}
+class Notificaciones extends AppCompatActivity {
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_notificaciones);
+    }
+
 }
