@@ -31,6 +31,10 @@ public class MatDesign extends AppCompatActivity {
         Intent intent15 = new Intent(v.getContext(), Ajustes.class);
         startActivityForResult(intent15, 0);
     }
+    public void Tutorial (View v){
+        Intent intent15 = new Intent(v.getContext(), Tutorial.class);
+        startActivityForResult(intent15, 0);
+    }
     public void VuelveMenu (View v){
         Intent intent21 = new Intent(v.getContext(), MenPri.class);
         startActivityForResult(intent21, 0);
