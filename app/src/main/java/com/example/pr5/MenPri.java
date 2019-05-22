@@ -23,4 +23,8 @@ public class MenPri extends AppCompatActivity {
         Intent intent10 = new Intent (v.getContext(), MatDesign.class);
         startActivityForResult(intent10, 0);
     }
+    public void Chats (View v){
+        Intent intent23 = new Intent (v.getContext(), Chats.class);
+        startActivityForResult(intent23, 0);
+    }
 }

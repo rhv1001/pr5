@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".Tutoperfil"></activity>
+        <activity android:name=".Tutobuscaviaje" />
+        <activity android:name=".Tutoanadeviaje" />
+        <activity android:name=".TutoMatDesign" />
+        <activity android:name=".Chats" />
+        <activity android:name=".Tutorial" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -139,6 +145,5 @@
             </intent-filter>
         </activity>
     </application>
-
 
 </manifest>
