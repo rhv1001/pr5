@@ -12,7 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".Tutoperfil"></activity>
+        <activity android:name=".Valoraciones"></activity>
+        <activity android:name=".Historial" />
+        <activity android:name=".PerfilViajesProgramados" />
+        <activity android:name=".Tutoperfil" />
         <activity android:name=".Tutobuscaviaje" />
         <activity android:name=".Tutoanadeviaje" />
         <activity android:name=".TutoMatDesign" />
