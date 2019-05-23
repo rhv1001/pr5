@@ -20,4 +20,8 @@ public class Historial extends AppCompatActivity {
         Intent intent21 = new Intent(v.getContext(), Valoraciones.class);
         startActivityForResult(intent21, 0);
     }
+    public void Materialdesign (View v) {
+        Intent intent15 = new Intent(v.getContext(), MaterialDesignPerfil.class);
+        startActivityForResult(intent15, 0);
+    }
 }

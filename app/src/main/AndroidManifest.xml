@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".Anadecoche"></activity>
+        <activity android:name=".Anadecoche" />
         <activity android:name=".Valoraciones" />
         <activity android:name=".Historial" />
         <activity android:name=".PerfilViajesProgramados" />
@@ -135,6 +135,13 @@
             </intent-filter>
         </activity>
         <activity android:name=".AnadirPago">
+            <intent-filter>
+                <action android:name="android.intent.action.INSERT" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MaterialDesignPerfil">
             <intent-filter>
                 <action android:name="android.intent.action.INSERT" />
 

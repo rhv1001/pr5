@@ -22,4 +22,8 @@ public class Valoraciones extends AppCompatActivity {
         Intent intent15 = new Intent(v.getContext(), PerfilViajesProgramados.class);
         startActivityForResult(intent15, 0);
     }
+    public void Materialdesign (View v) {
+        Intent intent15 = new Intent(v.getContext(), MaterialDesignPerfil.class);
+        startActivityForResult(intent15, 0);
+    }
 }
