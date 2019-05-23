@@ -16,7 +16,7 @@ public class MatDesign extends AppCompatActivity {
         startActivityForResult(intent11, 0);
     }
     public void MetPago (View v){
-        Intent intent12 = new Intent(v.getContext(), MetodoPago.class);
+        Intent intent12 = new Intent(v.getContext(), MetopagoReg.class);
         startActivityForResult(intent12, 0);
     }
     public void Ayuda (View v){

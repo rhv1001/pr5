@@ -12,7 +12,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".Valoraciones"></activity>
+        <activity android:name=".Anadecoche"></activity>
+        <activity android:name=".Valoraciones" />
         <activity android:name=".Historial" />
         <activity android:name=".PerfilViajesProgramados" />
         <activity android:name=".Tutoperfil" />
@@ -29,13 +30,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".MeteCuenta">
-            <intent-filter>
-                <action android:name="android.intent.action.INSERT" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".MetodoPago">
             <intent-filter>
                 <action android:name="android.intent.action.INSERT" />
 

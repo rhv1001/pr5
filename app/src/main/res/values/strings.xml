@@ -47,7 +47,7 @@
     <string name="contentsobrenosotros">App desarrollada por Rubén Herrero y Pablo Ahíta</string>
     <string name="ajustestitulo">Ajustes</string>
     <string name="bienvenida">Bienvenido a la aplicación</string>
-    <string name="pulsaelboton">Esta aplicación ha sido creada po Pablo Ahita y Rubén Herrero. Pulsa el botón para continuar</string>
+    <string name="pulsaelboton">Esta aplicación ha sido creada por Pablo Ahita y Rubén Herrero. Pulsa el botón para continuar</string>
     <string name="icotarjeta">Icono tarjeta de crédito</string>
     <string name="addmetodopago">Añadir método de pago</string>
     <string name="anadecoche">Añadir coche</string>
@@ -65,4 +65,14 @@
     <string name="quenecesitas">¿Qué necesitas?</string>
     <string name="enviar">Enviar</string>
     <string name="chats">CHATS</string>
+    <string name="paypal">PayPal</string>
+    <string name="banco">Banco</string>
+    <string name="titular">Titular de la cuenta</string>
+    <string name="iban">Nº de cuenta IBAN</string>
+    <string name="marca">Marca</string>
+    <string name="modelo">Modelo</string>
+    <string name="color">Color</string>
+    <string name="year">Año</string>
+    <string name="asientostotales">Asientos totales</string>
+    <string name="asientosdisponibles">Asientos disponibles</string>
 </resources>
