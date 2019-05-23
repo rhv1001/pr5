@@ -51,14 +51,14 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:layout_marginBottom="640dp"
+        android:layout_marginBottom="8dp"
         android:contentDescription="@string/todo"
         android:onClick="Materialdesign"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.023"
+        app:layout_constraintHorizontal_bias="0.062"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.177"
+        app:layout_constraintVertical_bias="0.032"
         app:srcCompat="@mipmap/ic_tresbarras2" />
 </android.support.constraint.ConstraintLayout>
